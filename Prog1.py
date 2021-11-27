@@ -21,7 +21,7 @@ for counting in Sentence:
     if counting == "a" or counting == "e" or counting == "i" or counting == "o" or counting == "u" or \
         counting == "A" or counting == "E" or counting == "I" or counting == "O" or counting == "U":
         n_vowels = n_vowels + 1 #Added vowels to be counted
-    elif counting == "":
+    elif counting == " ":
         n_space = n_space + 1    #Added space num
     else:
         n_consonants = n_consonants + 1   #Added Consonants to be counted
