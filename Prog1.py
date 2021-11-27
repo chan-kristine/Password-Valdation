@@ -9,7 +9,7 @@
 
 
 #Step 1 - Ask for a sentence
-Sentence = input("Enter you sentence here: ")
+Sentence = input(" \33[32m\33[1mEnter you sentence here:\33[0m ")
 
 #Step 2 - display the number of words, vowels and consonants
 n_words = len(Sentence.split())
@@ -27,11 +27,6 @@ for counting in Sentence:
         n_consonants = n_consonants + 1   #Added Consonants to be counted
 
 #Step3- Display everything
-print (f"The result says that the number of words in the sentence is :{n_words}")
-print (f"The result says that the number of vowels in the sentence is :{n_vowels}")
-print (f"The result says that the number of consonants in the sentence is :{n_consonants}")
-
-
-
-
-
+print (f"Number of \33[32m\33[1mwords\33[0m in the sentence :\33[1m\33[95m {n_words}\33[0m" )
+print (f"Number of \33[32m\33[1mvowels\33[0m in the sentence :\33[1m\33[95m {n_vowels}\33[0m")
+print (f"Number of \33[32m\33[1mconsonants\33[0m in the sentence :\33[1m\33[95m {n_consonants}\33[0m")
