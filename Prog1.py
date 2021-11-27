@@ -26,6 +26,12 @@ for counting in Sentence:
     else:
         n_consonants = n_consonants + 1   #Added Consonants to be counted
 
+#Step3- Display everything
+print (f"The result says that the number of words in the sentence is :{n_words}")
+print (f"The result says that the number of vowels in the sentence is :{n_vowels}")
+print (f"The result says that the number of consonants in the sentence is :{n_consonants}")
+
+
 
 
 
