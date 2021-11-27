@@ -17,5 +17,12 @@ num_character = len(Password)
 special,lower, upper, digit = 0, 0, 0, 0
 
 if len(Password) >= 15):
-    
+    for me in Password:
+        if (me.isdidgit()):
+            digit += 1
+        if (me.islower()):
+            lower += 1
+        if (me.isupper()):
+            upper += 1
+                    
 
