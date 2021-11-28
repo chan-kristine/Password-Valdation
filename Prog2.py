@@ -10,7 +10,7 @@
 # Tip: loop through each character of the input then process it letter by letter
 
 #Step1 
-Password = input("PLease enter your PASSWORD : ") #Ask for the password
+Password = input("Please enter your \33[32m\33[1mPASSWORD\33[0m : ") #Ask for the password
 
 #Step2
 num_character = len(Password)
@@ -28,6 +28,6 @@ if (len(Password) >= 15):
         or me == """|""" or me == """^""" or me == "{" or me == "}" or me == "_" or me == "~" or me == """+""" ):
             special =+ 1
     if (lower >= 1 and upper >= 1 and special >= 1 and digit >= 1):
-                print("Your PASSWORD is VALID!")  
+                print("Your \33[32m\33[1mPASSWORD\33[0m is \33[1m\33[95mVALID\33[0m!")  
     else:
-        print("Sorry! The PASSWORD you have entered is INVALID ❌")
+        print("Sorry! The \33[32m\33[1mPASSWORD\33[0m you have entered is \33[31m\33[1mINVALID\33[0m❌")
